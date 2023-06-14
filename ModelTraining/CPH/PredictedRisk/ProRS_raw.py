@@ -1,0 +1,28 @@
+
+import numpy as np
+import pandas as pd
+import pickle
+from Utility.Evaluation_Utilities import *
+from lifelines import CoxPHFitter
+from sklearn.metrics import recall_score, roc_auc_score, confusion_matrix
+pd.options.mode.chained_assignment = None  # default='warn'
+from lifelines.utils import concordance_index
+
+dpath = '/Volumes/JasonWork/Projects/UKB_Proteomics/Data/'
+outpath = '/Volumes/JasonWork/Projects/UKB_Proteomics/Results/'
+target_df_file = dpath + 'PreprocessedData/TargetData/TargetData.csv'
+
+target_code_df = pd.read_csv(dpath + 'Target_code.csv', encoding='latin-1')
+target_code_lst = target_code_df.Disease_code.tolist()
+fold_id_lst = [ele for ele in range(10)]
+
+for target_code in target_code_lst:
+    myoutdf = pd.DataFrame()
+    for fold_id in fold_id_lst:
+        mydf_test = pd.read_csv(outpath + 'MLModeling/MLP/ResMLP/' + target_code + '/Test' + str(fold_id) + '_ProRS.csv')
+        mydf_test['CPH_Risk'] =
+        myoutdf = pd.concat([myoutdf, tmpout], axis = 0)
+    print((target_code, roc_auc_score(myoutdf.Y, myoutdf.ProRS), roc_auc_score(myoutdf.Y, myoutdf.CPH_Risk)))
+    myoutdf.to_csv(outpath + 'MLModeling/CPH/PredProbs/ProRS/'+target_code+'.csv', index=False)
+
+
