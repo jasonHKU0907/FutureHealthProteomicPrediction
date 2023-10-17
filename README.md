@@ -2,7 +2,6 @@
 
 ![Logo](./src/Logo.png?raw=true "Logo")
 
-
 </div>
 
 ## Description   
@@ -20,13 +19,17 @@ The **Proteomic Neural Network** was developed based on [Keras](https://github.c
 This repo contains code to preprocess [UK Biobank](https://www.ukbiobank.ac.uk/) data, train the ProNNet and analyze/evaluate its performance.
 
 - **DataPreparation**
-  -CovariatesDataGenerator: involves parsing primary care records for desired diagnosis. 
-  -CovariatesDataGenerator: involves parsing primary care records for desired diagnosis. 
-  -CovariatesDataGenerator: involves parsing primary care records for desired diagnosis. 
-- **ModelTraining**Training involves Model specification via pytorch-lightning and hydra.
-- Evaluation involves extensive benchmarks with linear Models, and calculation of bootstrapped metrics.
-- Visualization contains the code to generate the figures displayed in the paper. 
+- Involves target data generation for different endpoints. Proteomic data and Clinical data (PANEL) generation and pre-processing.
+- **ModelTraining**
+- Proteomic neural network development and downstream survival analysis of Cox proportional hazard regressions.
+- **Figures**
+- Code to generate figures in the mauscripts.
+- **Tables**
+- Code to generate supplementary tables in the mauscripts.
+- **Utility**
+- Implement function calls for training and evaluation procedures.
 
+  
 ## License
 This work is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
