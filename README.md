@@ -17,10 +17,13 @@ The **Proteomic Neural Network** was developed based on [Keras](https://github.c
 ![Architecture](./src/ProNNet.png?raw=true "Architecture")
 
 ## Assets
-This repo contains code to preprocess [UK Biobank](https://www.ukbiobank.ac.uk/) data, train the MetabolomicStateModel and analyze/evaluate its performance.
+This repo contains code to preprocess [UK Biobank](https://www.ukbiobank.ac.uk/) data, train the ProNNet and analyze/evaluate its performance.
 
-- Preprocessing involves parsing primary care records for desired diagnosis. 
-- Training involves Model specification via pytorch-lightning and hydra.
+- **DataPreparation**
+  -CovariatesDataGenerator: involves parsing primary care records for desired diagnosis. 
+  -CovariatesDataGenerator: involves parsing primary care records for desired diagnosis. 
+  -CovariatesDataGenerator: involves parsing primary care records for desired diagnosis. 
+- **ModelTraining**Training involves Model specification via pytorch-lightning and hydra.
 - Evaluation involves extensive benchmarks with linear Models, and calculation of bootstrapped metrics.
 - Visualization contains the code to generate the figures displayed in the paper. 
 
