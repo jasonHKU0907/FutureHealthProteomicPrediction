@@ -27,22 +27,15 @@ This repo contains code to preprocess [UK Biobank](https://www.ukbiobank.ac.uk/)
 ## License
 This work is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
-
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
 
-[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
-[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
-[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
 
 ## Citation   
 ```
 @article{buergel2022metabolomic,
-  title={Metabolomic profiles predict individual multidisease outcomes},
-  author={Buergel, Thore and Steinfeldt, Jakob and Ruyoga, Greg and Pietzner, Maik and Bizzarri, Daniele and Vojinovic, Dina and Upmeier zu Belzen, Julius and Loock, Lukas and Kittner, Paul and Christmann, Lara and others},
-  journal={Nature Medicine},
-  pages={1--12},
-  year={2022},
-  publisher={Nature Publishing Group}
+  title={Plasma proteomic profiles predict individual future health risk},
+  author={You, Jia and Guo, Yu and Zhang, Yi and Kang, Ju-Jiao and Wang, Lin-Bo and Feng, Jian-Feng and Cheng, Wei and Yu, Jin-Tai},
+  Journal information will update later
 }
 ```
 
