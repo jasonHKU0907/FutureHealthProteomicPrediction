@@ -38,10 +38,6 @@ This work is licensed under a
 
 ## Citation   
 ```
-@article{buergel2022metabolomic,
-  title={Plasma proteomic profiles predict individual future health risk},
-  author={You, Jia and Guo, Yu and Zhang, Yi and Kang, Ju-Jiao and Wang, Lin-Bo and Feng, Jian-Feng and Cheng, Wei and Yu, Jin-Tai},
-  Journal information will update later
-}
+You, J., Guo, Y., Zhang, Y. et al. Plasma proteomic profiles predict individual future health risk. Nat Commun 14, 7817 (2023). https://doi.org/10.1038/s41467-023-43575-7
 ```
 
